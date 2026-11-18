@@ -1,0 +1,60 @@
+/* Reseteo de estilos: quitamos márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo de la página*/
+body {
+    color: rgb(30, 40, 55);
+    background-color: rgb(238, 242, 247);
+}
+
+/* Clase barra: formato para header y footer */
+.barra {
+    color: white;
+    background-color: rgb(55, 93, 150);
+    text-align: center;
+    padding: 15px;
+}
+
+/* Id nombre: nombre del alumno con gradiente en azul */
+#nombre {
+    color: white;
+    background-image: linear-gradient(to right, oklch(0.3 0.1 258), oklch(0.6 0.12 258));
+    padding: 5px;
+}
+
+/* Menú de navegación en azul oscuro */
+nav {
+    color: aliceblue;
+    background-color: oklch(0.38 0.09 258);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Enlaces del menú */
+a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Pseudoclase hover: el enlace se pone blanco al pasar el ratón */
+a:hover {
+    color: white;
+    cursor: cell;
+}
+
+/* Contenido principal */
+main {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Títulos h2 en azul */
+h2 {
+    color: oklch(0.38 0.09 258);
+}
+

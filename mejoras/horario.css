@@ -1,0 +1,62 @@
+/* Tabla del horario */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Bordes y texto centrado de la tabla */
+th, td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Cabeceras de la tabla en azul muy claro */
+th {
+    background-color: oklch(0.9 0.04 258);
+}
+
+/* Programación (rosa) */
+.prog {
+    background-color: oklch(0.85 0.09 345);
+}
+
+/* Sistemas Informáticos (verde azulado) */
+.si {
+    background-color: oklch(0.85 0.09 185);
+}
+
+/* Entornos de Desarrollo (naranja) */
+.ed {
+    background-color: oklch(0.85 0.09 65);
+}
+
+/* Base de Datos (azul) */
+.bd {
+    background-color: oklch(0.85 0.09 250);
+}
+
+/* Lenguajes de Marcas (amarillo) */
+.lm {
+    background-color: oklch(0.88 0.09 100);
+}
+
+/* IPEI (lila) */
+.ipei {
+    background-color: oklch(0.85 0.09 300);
+}
+
+/* Sostenibilidad (verde claro) */
+.sost {
+    background-color: oklch(0.85 0.09 140);
+}
+
+/* Digitalización (salmón) */
+.dig {
+    background-color: oklch(0.85 0.09 25);
+}
+
+/* Descanso y salida (gris azulado) */
+.descanso {
+    background-color: rgb(210, 220, 232);
+}
