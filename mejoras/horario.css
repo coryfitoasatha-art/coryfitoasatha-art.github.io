@@ -12,9 +12,7 @@ th, td {
 }
 
 /* Cabeceras de la tabla en azul muy claro */
-th {
-    background-color: oklch(0.9 0.04 258);
-}
+
 
 /* Programación (rosa) */
 .prog {
