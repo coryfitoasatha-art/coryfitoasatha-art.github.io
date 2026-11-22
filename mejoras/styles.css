@@ -63,3 +63,13 @@ ul, ol {
     margin: 0 auto;
     text-align: left;
 }
+/* Hacer visibles los enlaces dentro del contenido principal (main) */
+main a {
+    color: rgb(55, 93, 150); /* El color azul que usas en la barra */
+    text-decoration: underline; /* Opcional, para que parezcan más un enlace */
+}
+
+/* Efecto al pasar el ratón por encima de los enlaces del main */
+main a:hover {
+    color: rgb(30, 40, 55);
+}
