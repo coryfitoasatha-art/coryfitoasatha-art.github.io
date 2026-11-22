@@ -57,4 +57,9 @@ main {
 h2 {
     color: oklch(0.38 0.09 258);
 }
-
+/* Listas centradas correctamente */
+ul, ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
