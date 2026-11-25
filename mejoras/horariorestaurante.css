@@ -1,0 +1,63 @@
+/* Tabla del horario */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Bordes y texto centrado de la tabla */
+th, td {
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+    text-align: center;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Cabeceras de la tabla en un tono neutro elegante */
+th {
+    background-color: oklch(0.92 0.02 75);
+    color: oklch(0.25 0.02 75);
+    font-weight: 600;
+}
+
+/* Turno de Mañana (naranja suave y cálido) */
+.mañana {
+    background-color: oklch(0.90 0.08 65);
+}
+
+/* Turno de Tarde (azul cobalto suave) */
+.tarde {
+    background-color: oklch(0.88 0.08 240);
+}
+
+/* Turno de Noche / Cenas (azul oscuro/lila elegante) */
+.noche {
+    background-color: oklch(0.82 0.09 280);
+}
+
+/* Cocina / Preparación (verde oliva claro) */
+.cocina {
+    background-color: oklch(0.88 0.08 130);
+}
+
+/* Sala / Atención al cliente (rosa salmón suave) */
+.sala {
+    background-color: oklch(0.88 0.09 35);
+}
+
+/* Reparto / Delivery (amarillo ocre suave) */
+.reparto {
+    background-color: oklch(0.90 0.09 85);
+}
+
+/* Descanso / Comida del personal (gris neutro cálido) */
+.descanso {
+    background-color: oklch(0.92 0.01 90);
+    color: oklch(0.50 0.02 90);
+    font-style: italic;
+}
+
+/* Día libre / Cerrado (gris claro sutil) */
+.cerrado {
+    background-color: oklch(0.95 0.00 0);
+    color: oklch(0.60 0.00 0);
+}
