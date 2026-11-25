@@ -29,25 +29,6 @@ th {
     background-color: oklch(0.88 0.08 240);
 }
 
-/* Turno de Noche / Cenas (azul oscuro/lila elegante) */
-.noche {
-    background-color: oklch(0.82 0.09 280);
-}
-
-/* Cocina / Preparación (verde oliva claro) */
-.cocina {
-    background-color: oklch(0.88 0.08 130);
-}
-
-/* Sala / Atención al cliente (rosa salmón suave) */
-.sala {
-    background-color: oklch(0.88 0.09 35);
-}
-
-/* Reparto / Delivery (amarillo ocre suave) */
-.reparto {
-    background-color: oklch(0.90 0.09 85);
-}
 
 /* Descanso / Comida del personal (gris neutro cálido) */
 .descanso {
